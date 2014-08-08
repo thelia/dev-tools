@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 if [ $# -eq 0 ]
 then
 	echo "usage: $0 tag_name_or_branch_name"
