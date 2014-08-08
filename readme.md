@@ -1,6 +1,8 @@
 Thelia dev tools
 ===
 
+This repo is a set of tools for helping thelia developers.
+
 Test thelia update
 ---
 
