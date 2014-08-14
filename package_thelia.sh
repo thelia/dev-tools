@@ -9,7 +9,7 @@ mkdir -p ~/.thelia/version
 cd ~/.thelia/version
 git clone https://github.com/thelia/thelia thelia_$1
 cd thelia_$1
-git checkout $1
+git checkout tags/$1
 git submodule update --init
 composer install -o
 rm -rf .git
