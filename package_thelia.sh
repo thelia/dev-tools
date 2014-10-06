@@ -13,6 +13,14 @@ git checkout tags/$1
 git submodule update --init
 composer install -o
 rm -rf .git
+if [ -d "local/modules/HookTest" ] 
+then
+    rm -rf local/modules/HookTest
+fi
+if [ -d "templates/frontOffice/hooktest" ]
+then
+    rm -rf templates/frontOffice/hooktest
+fi
 cd core/vendor
 find . -name ".git" | xargs rm -rf
 find . -name ".svn" | xargs rm -rf
