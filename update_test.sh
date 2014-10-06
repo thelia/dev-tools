@@ -18,7 +18,9 @@ test_dir="test_update"
 versions[0]="2.0.1"
 versions[1]="2.0.2"
 versions[2]="2.0.3-beta"
-versions[3]="$2"
+versions[3]="2.0.3-beta2"
+versions[4]="2.0.3"
+versions[5]="$2"
 
 ## Install 2.0.0
 git clone $1 $test_dir
